@@ -32,7 +32,7 @@
 }
 
 .input-field{
-    @apply flex flex-col gap-[5px] text-gray-300
+    @apply w-[300px] flex flex-col gap-[5px] text-gray-300 max-480:w-auto
 }
 .input{
     @apply h-[35px] rounded-[5px] items-center pl-[10px] bg-gray-400

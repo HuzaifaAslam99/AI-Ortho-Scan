@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div className='w-[100vw] min-h-screen bg-background-blue flex flex-col items-center justify-center gap-[20px]'>
         <img src={Logo} alt="logo" className="w-[80px]" />
-        <div className=" bg-login  flex flex-col gap-[5px] px-[20px] items-center justify-center py-[10px] rounded-[10px]">
+        <div className=" bg-login flex flex-col gap-[5px] px-[20px] items-center justify-center py-[10px] rounded-[10px]">
             <h2 className='text-white'>Login</h2>
             <form id="loginForm" className='flex flex-col gap-[10px]'>
                 <div className="input-field">
