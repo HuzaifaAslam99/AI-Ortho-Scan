@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import Elbow from "./Elbow.jpg"
-import Loading from "./Loading.png"
-// import Attach from "../svg/attach.svg"
+import Elbow from "./img/Elbow.jpg"
+import Loading from "./img/Loading.png"
 import UploadButton from "./UploadButton"
 
 
-const Mdiagnosis = ({Upload}) => {
+const Mdiagnosis = () => {
 
   const [inputValue, setInputValue] = useState('');
 

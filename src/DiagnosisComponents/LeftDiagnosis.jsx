@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Home from '../img/home.png';
-// import Profile from '../img/profile.png';
-// import Settings from '../img/settings.png';
 import Cross from '../img/white_cross.png';
 import Bone from "../img/bone.png"
 import SignOut from '../svg/sign-out.svg';
@@ -47,13 +45,6 @@ const Left = ({isVisible, toggleLeft}) => {
           </div>
           <div className="button-text text-black"> Treatment </div>
         </Link>
-
-        {/* <div className="button">
-          <div className="w-[40px] flex justify-center">
-            <img src={Settings} alt="" className="w-[20px] h-[20px] " />
-          </div>
-          <div className="button-text"> Settings </div>
-        </div> */}
 
         <Link to="/" className="button">
           <div className="w-[40px] flex justify-center">

@@ -19,13 +19,13 @@ const PatientDetail = () => {
 
         <div className='patient-box'>
             <img src={Name} alt="Name Icon" className="w-[40px] max-400:w-[30px]"/>
-            <span className='text-[20px] max-900:text-[22px] max-400:text-[16px]'>Alice</span>
+            <span className='text-[20px] max-900:text-[22px] max-400:text-[16px]'>Huzaifa</span>
             <span className='text-[12px] text-gray-400 max-400:text-[10px]'>First Name</span>
         </div>
 
         <div className='patient-box'>
             <img src={Age} alt="Age Icon" className="w-[30px] max-400:w-[23px]"/>
-            <span className='text-[20px] max-900:text-[22px] max-400:text-[16px]'>21</span>
+            <span className='text-[20px] max-900:text-[22px] max-400:text-[16px]'>19</span>
             <span className='text-[12px] text-gray-400 max-400:text-[10px]'>Age</span>
         </div>
 

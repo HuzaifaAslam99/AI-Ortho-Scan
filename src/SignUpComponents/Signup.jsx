@@ -33,18 +33,6 @@ const Signup = () => {
       return;
     }
 
-//     if (fullName && cnic && email && password && confirmPassword) {
-//       if (password === confirmPassword) {
-//         // Proceed to the Dashboard page if all fields are filled
-//         navigate('/Dashboard');
-//       } else {
-//         alert('Passwords do not match');
-//       }
-//     } else {
-//       alert('Please fill out all fields');
-//     }
-//   };
-
 
 
   const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*(),.?":{}|<>])[A-Za-z\d!@#$%^&*(),.?":{}|<>]{8,}$/;
