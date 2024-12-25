@@ -27,11 +27,11 @@ const Signup = () => {
     const { fullName, cnic, email, password, confirmPassword } = formData;
 
     // CNIC validation: must be exactly 13 digits
-    const cnicPattern = /^\d{13}$/;
-    if (!cnicPattern.test(cnic)) {
-      alert('CNIC must be exactly 13 digits');
-      return;
-    }
+    // const cnicPattern = /^\d{13}$/;
+    // if (!cnicPattern.test(cnic)) {
+    //   alert('CNIC must be exactly 13 digits');
+    //   return;
+    // }
 
 
 
@@ -73,11 +73,11 @@ const Signup = () => {
             />
           </div>
           <div className="input-field">
-            <label htmlFor="cnic">CNIC</label>
+            <label htmlFor="cnic">Age</label>
             <input
               type="number"
               id="cnic"
-              placeholder="Enter your cnic"
+              placeholder="Enter your Age"
               required
               className='input bg-input-color'
               value={formData.cnic}
