@@ -6,8 +6,6 @@ import Diagnose from "../DiagnosisComponents/Mdiagnosis"
 
 import {useLocation } from 'react-router-dom';
 
-// max-800:px-[20px]
-// max-1200:pl-[90px]
 
 const RightDash = ({toggleLeft}) => {
 
